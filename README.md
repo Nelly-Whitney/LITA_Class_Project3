@@ -56,6 +56,13 @@ By achieving these goals, the analysis will help the organization better underst
 The dataset for thsi analysis was provided by the Incubator Hub
 
 #### Tools Used
+- Microsoft Excel
+   - Data Cleaning
+   - Data Analysis
+   - Data Visualization
+- SQL (Structured Query Language) Server Download Here for querying of data
+- Power Bi Desktop for VisualizationDownload Here
+- GitHub for Portfolio Building and reporting of my analysis
 
 #### Data Cleaning and Preparation
 
