@@ -52,6 +52,11 @@ The primary goal of analyzing the HR Data dataset focusing on employee attrition
 
 By achieving these goals, the analysis will help the organization better understand its workforce dynamics, identify areas for improvement, and implement strategies to enhance employee retention.
 
+#### Data Sources
+The dataset for thsi analysis was provided by the Incubator Hub
+
+#### Tools Used
+
 #### Data Cleaning and Preparation
 
 In the initial phase of the data cleaning and preparations, I performed the following actions;
