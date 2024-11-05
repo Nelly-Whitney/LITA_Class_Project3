@@ -60,9 +60,9 @@ The dataset for thsi analysis was provided by the Incubator Hub
    - Data Cleaning
    - Data Analysis
    - Data Visualization
-- SQL (Structured Query Language) Server Download Here for querying of data
-- Power Bi Desktop for VisualizationDownload Here
-- GitHub for Portfolio Building and reporting of my analysis
+- SQL (Structured Query Language) Server [Download Here](https://www.microsoft.com) for querying of data
+- Power Bi Desktop for Visualization[Download Here](https://www.google.com/url?client=internal-element-cse&cx=012684331380167808104:oe5oj--md1a&q=https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads&sa=U&ved=2ahUKEwjQubqQr8GJAxUvUaQEHV7fEFkQFnoECBUQAQ&usg=AOvVaw1759XFBNl5AM71b9k88zga)
+- GitHub for Portfolio Building amd Reporting of anaylsis
 
 #### Data Cleaning and Preparation
 
