@@ -1,8 +1,33 @@
 # LITA_Class_Project3
 Documentation of my class project while learning data analysis with Imcubato Hub
 ## PROJECT: LITA_Capstone_Project
-### Project 2
+### Project 3
 ### Outline
+[Project Title](#Project-Title)
+
+[Project Overview](#Project-Overview)
+
+[Goals](#Goals)
+
+[Data Sources](#Data-Sources)
+
+[Tools Used](#Tools-Used)
+
+[Data Overview](#Data-Overview)
+
+[Data Cleaning and Preparation](#Data-Cleaning-and-Preparation)
+
+[Exploratory Data Analysis](#Exploratory-Data-Anaysis)
+
+[Data Analysis](#Data-Analysis)
+
+[Findings](#Findings)
+
+[Recommendations](#Recommendations)
+
+[Conclusion](#Conclusion)
+
+
 #### Project Title: Analysis Of HR Data
 #### Project Overview 
 This report analyzes employee attritin rates within the company to identify trends, factors contributing to employee turnover, and actionable recommendations to improve retention. The analysis focuses on key demographics, performance metrics and employee satisfaction indicators.
