@@ -85,8 +85,8 @@ This dataset includes the following attributes
 - **Performance Rating**: Annual Performance rating 
 - **Years at Company**: Duration of employment at the company
 - **Attrition**: Indicates if the employee has left the company (Yes/No)
-- **Job Satisfaction**: Employee's self-reported job satisfaction (scale of 1 to 5)
-- **Work-Life Balance**: Employee's self-reported work-life balance (scale of 1 to 5)
+- **Job Satisfaction**: Employee's self-reported job satisfaction (scale of 1 to 4)
+- **Work-Life Balance**: Employee's self-reported work-life balance (scale of 1 to 4)
 
 #### Exploratory Data Analysis 
 EDA for this dataset involves 
@@ -123,6 +123,7 @@ It includes;
 
 ##### Findings
 
+Key Insights
 1. Attrition Overview
    - **Total Employees Analyzed**: 1470
    - **Total Attrition**: 237
@@ -150,6 +151,12 @@ It includes;
    - **Average Tenure of Departed Employees**: 5.13
    - **Tenure with Highest Attrition**:
       - 1 year: 28.89%
+
+Trends
+1. Most employees leave the company after spending a year.
+2. Higher number of employees who rarely travel leave the company especially after working for 1 year.
+3. Higher number of laboratory assistants leave after the first year.
+4. Most people in R&D deparment who left usually worked overtime. That may be a key reason for high attrition in this department in addition to the low average job satisfaction of 2.17.
 
 #### Recommendations
 
