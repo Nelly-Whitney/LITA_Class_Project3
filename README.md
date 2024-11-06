@@ -1,5 +1,5 @@
 # LITA_Class_Project3
-Documentation of my class project while learning data analysis with Imcubato Hub
+Documentation of my class project while learning data analysis with Incubator Hub
 ## PROJECT: LITA_Capstone_Project
 ### Project 3
 ### Outline
@@ -32,7 +32,7 @@ Documentation of my class project while learning data analysis with Imcubato Hub
 
 #### Project Title: Analysis Of HR Data
 #### Project Overview 
-This report analyzes employee attritin rates within the company to identify trends, factors contributing to employee turnover, and actionable recommendations to improve retention. The analysis focuses on key demographics, performance metrics and employee satisfaction indicators.
+This report analyzes employee attrition rates within the company to identify trends, factors contributing to employee turnover, and actionable recommendations to improve retention. The analysis focuses on key demographics, performance metrics and employee satisfaction indicators.
 
 #### Goals
 ### Goal of Analysis of HR Data Dataset
@@ -60,8 +60,6 @@ The dataset for this analysis was provided by the Incubator Hub
 #### Tools Used
 - Microsoft Excel
    - Data Cleaning
-   - Data Analysis
-   - Data Visualization
 - Power Bi Desktop for Visualization[Download Here](https://www.google.com/url?client=internal-element-cse&cx=012684331380167808104:oe5oj--md1a&q=https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads&sa=U&ved=2ahUKEwjQubqQr8GJAxUvUaQEHV7fEFkQFnoECBUQAQ&usg=AOvVaw1759XFBNl5AM71b9k88zga)
 - GitHub for Portfolio Building amd Reporting of anaylsis
 
@@ -94,11 +92,13 @@ This dataset includes the following attributes
 EDA for this dataset involves 
 - Calculating attrition rate
 - Visualization of attrition by gender
-- Job satisfaction analysis 
+- Job satisfaction analysis
+- Performace Rating Analysis
 - Attrition by Job Role
 
 #### Data Analysis
-Here will be shown basic DAX expression used in the analysis of the dataset
+
+Here will be shown basic DAX expressions used in the analysis of the dataset
 1. For the creation of a measure for attrition rate
 ```DAX
 Attrition rate= SUM('HR data'[Attrition Count])/SUM('HR data'[Employee Count]
@@ -107,9 +107,11 @@ Attrition rate= SUM('HR data'[Attrition Count])/SUM('HR data'[Employee Count]
 ```DAX
 Average Age of Employee= SUM('HR data'[Age])/ SUM('HR data'[Employee Count])
 ```
+
 #### Data Visualization
+
 This is the interactive dashboard created using Power BI for visualization of analyzed data.
-It includes
+It includes;
 - Attrition By Department
 - Attrition By Education Field
 - Age Group Analysis
@@ -120,6 +122,7 @@ It includes
 ![HR data Bi 2](https://github.com/user-attachments/assets/48d12284-9707-4499-9240-afd6c418fe8e)
 
 ##### Findings
+
 1. Attrition Overview
    - **Total Employees Analyzed**: 1470
    - **Total Attrition**: 237
@@ -151,7 +154,7 @@ It includes
 #### Recommendations
 
 1. **Targeted Retention Strategies**:
-   - Departments with the high attrition rates should be focused on to develop specific retention programs.
+   - Departments with high attrition rates should be focused on to develop specific retention programs.
    - Implement mentorship systems for new hires to improve integration and job satisfaction.
 2. **Enhance Employee Engagement**:
    - Conduct regular employee satisfaction surveys to monitor job satisfaction and work-life balance.
