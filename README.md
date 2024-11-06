@@ -143,11 +143,16 @@ Key Insights
       - R&D: 56.1%
    - **Department with the Lowest Attrition**
       - HR: 5.1%
-4. Performance and Satisfaction Metrics
+4.Job Role Analysis
+   - **Job Role with the Highest Attrition**
+      - Laboratory Technician: 26.16%
+   - **Job Role with the Lowest Attrition**
+      - Research Director: 0.84%
+5.  Performance and Satisfaction Metrics
    - **Average Performance Rating of Departed Employees**: 3.16
    - **Average Job Satisfaction of Departed Employees**: 2.47
    - **Average Work-Life Balance of Departed Employees**: 2.66
-5. Years at Company
+6. Years at Company
    - **Average Tenure of Departed Employees**: 5.13
    - **Tenure with Highest Attrition**:
       - 1 year: 28.89%
