@@ -139,8 +139,28 @@ It includes
       - R&D: 56.1%
    - **Department with the Lowest Attrition**
       - HR: 5.1%
+4. Performance and Satisfaction Metrics
+   - **Average Performance Rating of Departed Employees**: 3.16
+   - **Average Job Satisfaction of Departed Employees**: 2.47
+   - **Average Work-Life Balance of Departed Employees**: 2.66
+5. Years at Company
+   - **Average Tenure of Departed Employees**: 5.13
+   - **Tenure with Highest Attrition**:
+      - 1 year: 28.89%
 
-   
+#### Recommendations
+
+1. **Targeted Retention Strategies**:
+   - Departments with the high attrition rates should be focused on to develop specific retention programs.
+   - Implement mentorship systems for new hires to improve integration and job satisfaction.
+2. **Enhance Employee Engagement**:
+   - Conduct regular employee satisfaction surveys to monitor job satisfaction and work-life balance.
+   - Organize workshops and programs which improve team spirit to foster positive work environment.
+3. **Career Development Opportunities**: Create clear pathways for career advancement to motivate empoyees stay longer.
+
+#### Conclusion
+
+The analysis reveals significant insights into factors affecting employee attrition within the company. By focusing on the recommendations provided above to enhance employee retention, the company can reduce attrition rates and foster a more stable workforce.
                               
 
 
