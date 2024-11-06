@@ -13,13 +13,15 @@ Documentation of my class project while learning data analysis with Imcubato Hub
 
 [Tools Used](#Tools-Used)
 
-[Data Overview](#Data-Overview)
-
 [Data Cleaning and Preparation](#Data-Cleaning-and-Preparation)
+
+[Data Overview](#Data-Overview)
 
 [Exploratory Data Analysis](#Exploratory-Data-Anaysis)
 
 [Data Analysis](#Data-Analysis)
+
+[Data Visualization](#Data-Visualization)
 
 [Findings](#Findings)
 
@@ -60,7 +62,6 @@ The dataset for thsi analysis was provided by the Incubator Hub
    - Data Cleaning
    - Data Analysis
    - Data Visualization
-- SQL (Structured Query Language) Server [Download Here](https://www.microsoft.com) for querying of data
 - Power Bi Desktop for Visualization[Download Here](https://www.google.com/url?client=internal-element-cse&cx=012684331380167808104:oe5oj--md1a&q=https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads&sa=U&ved=2ahUKEwjQubqQr8GJAxUvUaQEHV7fEFkQFnoECBUQAQ&usg=AOvVaw1759XFBNl5AM71b9k88zga)
 - GitHub for Portfolio Building amd Reporting of anaylsis
 
@@ -77,12 +78,13 @@ In the initial phase of the data cleaning and preparations, I performed the foll
 #### Data overview
 
 This dataset includes the following attributes 
-- **Employee ID**: Unique identifier for each employee
+- **Employee Number**: Unique identifier for each employee
 - **Age**: Age of the employee
 - **Gender**: Gender of the employee
 - **Department**: Department where the employee works
 - **Job Role**: Specific job title of the employee
 - **Salary**: Annual salary of the employee
+- **Performance Rating**: Annual Performance rating 
 - **Years at Company**: Duration of employment at the company
 - **Attrition**: Indicates if the employee has left the company (Yes/No)
 - **Job Satisfaction**: Employee's self-reported job satisfaction (scale of 1 to 5)
@@ -96,3 +98,49 @@ EDA for this dataset involves
 - Attrition by Job Role
 
 #### Data Analysis
+Here will be shown basic DAX expression used in the analysis of the dataset
+1. For the creation of a measure for attrition rate
+```DAX
+Attrition rate= SUM('HR data'[Attrition Count])/SUM('HR data'[Employee Count]
+```
+2. For the creation of measure for average age of employee
+```DAX
+Average Age of Employee= SUM('HR data'[Age])/ SUM('HR data'[Employee Count])
+```
+#### Data Visualization
+This is the interactive dashboard created using Power BI for visualization of analyzed data.
+It includes
+- Attrition By Department
+- Attrition By Education Field
+- Age Group Analysis
+- Attrition By Gender
+
+![HR data Bi](https://github.com/user-attachments/assets/eec3afae-6dc9-4bb1-8f61-ccdea6842087)
+
+![HR data Bi 2](https://github.com/user-attachments/assets/48d12284-9707-4499-9240-afd6c418fe8e)
+
+##### Findings
+1. Attrition Overview
+   - **Total Employees Analyzed**: 1470
+   - **Total Attrition**: 237
+   - **Attrition Rate**: 16.1%
+2. Demographic Analysis
+   - **Attrition By Gender**:
+      - Male: 63.29%
+      - Female: 36.71%
+   - **Attrition By Age Group**:
+      - Under 25: 16.03%
+      - 25 - 34: 47.26%
+      - 35 - 44: 21.52%
+      - 45 - 54: 10.55%
+      - Over 55: 4.64%
+3. Departmental Analysis
+   - **Department with the Highest Attrition**
+      - R&D: 56.1%
+   - **Department with the Lowest Attrition**
+      - HR: 5.1%
+
+   
+                              
+
+
